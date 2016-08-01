@@ -1,0 +1,35 @@
+revisión kuikx.
+
+Falta botón salir de la aplicación desde menú desplegable.
+Error caracteres cerrar sesión
+
+1.- Al recuperar contraseña y dar a enviar, envía una nueva contraseña pero no limpia el formulario
+con lo que si pulsas otra vez, te envía otro código diferente.
+lo mejor sería que enviase un enlace al correo y que al pinchar en el recuperases la contraseña
+porque si no cualquiera que sepa tu correo te la cambia cada vez que quiera.
+
+2.-Al registrame y poner un email tipo aaaaaa sale un error (eso está bien) pero la alerta
+que sale es "ocurrió un error inesperado" sería mejor que saliese un error tipo: 
+"email no valido".
+
+3.-si entras en el perfil, los campos calle y población salen como "undefined" eso debería de
+estar en blanco.
+
+4.-Dentro de perfil, el botón limpiar no tiene mucha utilidad. Este botón o le quitamos 
+o ponemos eliminar usuario, eso sí con una alerta primero tipo, "si continuas cancelarás tu cuenta
+y se borrarán todos tus datos" o algo así.
+
+5.-Cuando capturas el qr y vas a pagar y no tienes ninguna tarjeta registrada, te debería dar la 
+posibilidad de registrarla (poner un enlace a registrar tarjeta).
+
+6.-Te deja registrar cualquier tarjeta sea el numero que sea, aunque luego no te deje comprar.
+cuando registras la tarjeta no sale la fecha en la que la has registrado (undefined).
+
+7.-Deberíamos poner algo orientativo para introducir el número de tarjeta.... solo números o algo así
+vale que en el placeholder se ve pero nunca se sabe. He probado a separarlo con / y solo 
+salen los numeros que hay a la izquierda de la /.
+
+------------------------SIGO REVISANDO MÁS TARDE -----------------------------
+
+
+
